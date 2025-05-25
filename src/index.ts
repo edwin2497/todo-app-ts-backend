@@ -6,7 +6,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello from TypeScript + Express!');
+    res.send('Express on Vercel');
 });
 
 app.listen(port, () => {
